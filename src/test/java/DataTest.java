@@ -49,6 +49,7 @@ class DataTest {
         Data data1 = new Data(20, "gigabytes", 100);
         assertEquals("Data: 20.0 gigabytes\nDownload Time: 27 minutes 18 seconds", data1.toString());
 
+
         Data data2 = new Data(512, "megabytes", 200);
         assertEquals("Data: 512.0 megabytes\nDownload Time: 0 minutes 20 seconds", data2.toString());
     }
